@@ -31,12 +31,8 @@ nav a {
     font-weight: bold;
     margin: 20px;
     padding: 10px 15px;
-    transition: font-weight 0.3s;
 }
 
-nav a:hover {
-    font-weight: bold;
-}
 
 .dropdown {
     position: relative;
@@ -82,7 +78,17 @@ nav a:hover {
     text-align: center;
     border-bottom: 1px solid darkgray;
     margin: 10px;
+    transition: font-weight 0.3s;
 }
+
+.submenu a:hover {
+    font-weight: bold;
+}
+
+.submenu a:active {
+    color: #cb6115;
+}
+
 
 .submenu a:last-child {
     border-bottom: none;
