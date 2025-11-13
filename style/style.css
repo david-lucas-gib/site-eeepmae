@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
+@font-face {
+    font-family: 'Morganite';
+    src: url(../fontes/Morganite/Morganite-Black.ttf) format('truetype');
+    font-weight: bold;
+}
+
 body {
     margin: 0;
     font-family: 'Sora', sans-serif;
@@ -97,6 +103,12 @@ main {
     background-color: #E6E6E6;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.447);
     border-radius: 0px 0px 15px 15px;
+}
+
+main h1 {
+    font-family: 'Morganite', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5em;
 }
 
 footer {
