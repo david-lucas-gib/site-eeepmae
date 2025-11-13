@@ -18,8 +18,9 @@ header img#logoEeep {
     width: 86px;
 }
 
-header nav {
+nav {
     display: flex;
+    align-items: center;
     margin: auto;
 }
 
@@ -29,5 +30,60 @@ nav a {
     font-size: 1.1em;
     font-weight: bold;
     margin: 20px;
+    padding: 10px 15px;
+    transition: font-weight 0.3s;
 }
 
+nav a:hover {
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown > a::after {
+    content: "▼";
+    font-size: 0.8em;
+    color: white;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover > a::after {
+    transform: rotate(180deg);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F2F2F2;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 10;
+    padding: 0;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    padding: 12px 16px;
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    margin: 10px;
+}
+
+.submenu a:last-child {
+    border-bottom: none;
+}
