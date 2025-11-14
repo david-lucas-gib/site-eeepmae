@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEEPMAE - Pré-Matrícula</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <style>
+
+        footer {
+            margin-top: 17vh;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../imagens/logo-eeep_sem-fundo.png" alt="Logo EEEPMAE" id="logoEeep"></a>
+        <nav>
+            <div class="dropdown">
+                <a href="#">Cursos</a>
+                <div class="submenu">
+                    <a href="../curso/administração.html">Administração</a>
+                    <a href="../curso/sistemas.html">Desenvolvimento de Sistemas</a>
+                    <a href="../curso/eletro.html">Eletrotécnica</a>
+                    <a href="../curso/informatica.html">Informática</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#">Contato</a>
+                <div class="submenu">
+                    <a href="#">Whatsapp</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Email</a>
+                </div>
+            </div>
+            <a href="formulário.html">Pré-Matrícula</a>
+        </nav>
+    </header>
+    <br>
+
+    <div class="matricula">
+        <div class="esquerda">
+            <h1 class="titulo"> Faça parte da nossa escola! </h1>
+            <form action="#" method="post">
+                <label for="nome"> Nome: </label>
+                <input type="text" placeholder="Digite seu nome">
+                <label for="email"> E-mail: </label>
+                <input type="email" placeholder="Digite seu e-mail">
+                <label for="data"> Data de nascimento: </label>
+                <input type="date">
+                <label for="contato"> Telefone: </label>
+                <input type="text" placeholder="Digite seu telefone:">
+                <label for="curso"> Curso:</label>
+                <select name="curso" id="curso">
+                     <option value="Select"> Selecione seu curso</option>
+                    <option value="Infórmatica"> Informática</option>
+                    <option value="eletrotécnica">Eletrotécnica</option>
+                     <option value="Administração ">Administração </option>
+                      <option value="Desenv. de sistemas">Desenv. de Sistemas</option>
+                    </select>
+                    <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="direita">
+            <img id="foto matricula" src="imagens/fotos dos bb.jpg" alt="">
+        </div>
+    </div>
+    
+     <footer>
+        &copy; 2025 EEEPMAE - Todos os direitos reservados
+    </footer>
+    
