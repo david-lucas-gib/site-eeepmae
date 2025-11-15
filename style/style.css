@@ -145,6 +145,71 @@ main p {
     line-height: 2em;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    
+}
+
+section.section-com-imagem {
+    background-color: rgb(62, 61, 61); /* Apenas pra preencher */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+    background-size: cover;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+section#escola {
+    background-image: url(../imagens/placeholder.png);
+}
+
+section#escola > h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+div.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icone-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    transition: transform 0.3s;
+}
+
+.icone-container:hover {
+    transform: scale(1.1);
+}
+
+.icone-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.5s ease;
+}
+
+.img-original {
+    opacity: 1;
+}
+
+.img-hover {
+    opacity: 0;
+}
+
 .matricula{
     width: 100%; 
     height: auto; 
@@ -214,11 +279,6 @@ input[type="submit"] {
     border-radius: 50% 0 0 50%;
     max-width: 100%;
 }
-
-#adm{
-    text-align: center;
-}
-
 
 footer {
     background-color: #124026;
