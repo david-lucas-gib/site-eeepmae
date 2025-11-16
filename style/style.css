@@ -112,12 +112,33 @@ main {
     flex-grow: 1;
 }
 
+.pagina-curso {
+    padding: 20px;
+}
+
+.pagina-curso .curso-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pagina-curso .logo-curso {
+    width: 250px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
 main h1 {
     font-family: 'Sora', sans-serif;
     text-transform: uppercase;
     color: #cb6115;
     font-size: 1.8em;
     text-align: center;
+}
+
+.curso-header h1 {
+    margin: 0;
+    font-size: 2.4em;
 }
 
 main h2 {
@@ -143,6 +164,48 @@ main p {
     text-indent: 30px;
     font-size: 0.9em;
     line-height: 2em;
+}
+
+.imagem-com-texto {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.imagem-com-texto img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.imagem-com-texto .texto {
+    flex: 0 0 45%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.imagem-com-texto .texto h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+.imagem-com-texto .texto p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.imagem-direita {
+    flex-direction: row-reverse;
+}
+
+.logo-curso {
+    width: 320px;
+    margin: auto;
+    display: block;
 }
 
 section {

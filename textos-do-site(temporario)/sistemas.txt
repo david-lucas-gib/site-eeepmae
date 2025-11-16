@@ -1,0 +1,36 @@
+O Curso Técnico em Desenvolvimento de Sistemas da EEEPMAE forma profissionais preparados para projetar, desenvolver, testar e manter soluções tecnológicas que impulsionam empresas e transformam ideias em realidade digital. Integrado ao ensino médio, o curso une fundamentos teóricos sólidos com intensa prática em programação, redes e gestão de projetos, capacitando o aluno a atuar como um verdadeiro agente de inovação no mercado de tecnologia.
+O propósito é desenvolver competências técnicas e criativas para criar sistemas eficientes, seguros e escaláveis, além de preparar o estudante para empreender, liderar equipes de TI e acompanhar a constante evolução do setor. Desde o início, o aluno é estimulado a pensar como desenvolvedor full-cycle: do planejamento à entrega de produtos digitais funcionais e centrados no usuário.
+O que você vai aprender
+A grade curricular é hands-on, com foco em linguagens, ferramentas e metodologias atuais do mercado. As disciplinas abordadas incluem:
+
+Planejamento de Carreira: Orientação profissional, elaboração de currículo, preparação para entrevistas, análise de mercado de TI e construção de portfólio digital.
+Arquitetura e Manutenção de Computadores: Montagem, configuração e diagnóstico de hardware, compreensão de componentes, redes internas e boas práticas de manutenção preventiva.
+Lógica de Programação (com Java): Estruturas sequenciais, condicionais e de repetição, algoritmos, depuração e resolução de problemas com a linguagem Java como base prática.
+Programação Orientada a Objetos (P.O.O.): Conceitos de classes, objetos, herança, polimorfismo, encapsulamento e abstração, aplicados em projetos reais com Java.
+Redes: Fundamentos de redes TCP/IP, topologias, configuração de roteadores, segurança básica, protocolos e introdução a redes locais (LAN) e em nuvem.
+Gestão de Startup: Metodologias ágeis (Scrum, Kanban), MVP, canvas de modelo de negócios, pitch de produto e gestão de projetos tecnológicos com foco em inovação e viabilidade.
+
+Outras disciplinas complementam a formação no segundo ano, aprofundando temas como bancos de dados, desenvolvimento web/mobile e segurança da informação, formando um perfil completo de desenvolvedor.
+Por que escolher Desenvolvimento de Sistemas na EEEPMAE?
+Este curso é perfeito para quem tem curiosidade tecnológica, raciocínio lógico e vontade de criar soluções reais. Se você gosta de programar, resolver problemas complexos ou sonha em trabalhar em grandes techs, startups ou como freelancer, a formação técnica entrega habilidades prontas para o mercado em apenas 3 anos.
+Principais motivos para escolher este curso:
+
+Alta demanda no mercado – profissionais de TI estão entre os mais procurados no Brasil e no mundo.
+Prática desde o primeiro ano – projetos reais, hackathons internos e uso de laboratórios de hardware e informática.
+Infraestrutura de ponta – computadores atualizados, softwares licenciados e acesso a ferramentas como Git, VS Code e ambientes de teste.
+Certificação reconhecida – diploma técnico válido em todo o país, com possibilidade de registro no CRT.
+
+Onde você pode trabalhar
+Com o certificado de Técnico em Desenvolvimento de Sistemas, você estará apto a atuar em cargos como:
+
+Programador júnior (Java, web ou mobile)
+Suporte técnico em TI
+Analista de sistemas
+Desenvolvedor freelancer
+Técnico em manutenção de redes e computadores
+Auxiliar em gestão de projetos de software
+Empreendedor digital (aplicativos, sites, automações)
+
+O curso também é uma excelente base para graduações em Ciência da Computação, Engenharia de Software, Sistemas de Informação ou Análise e Desenvolvimento de Sistemas, com aproveitamento de disciplinas em diversas instituições.
+Aqui, você não apenas aprende a programar — você aprende a transformar o mundo com código.
+Faça parte da revolução digital na EEEPMAE e construa o futuro, linha por linha!
