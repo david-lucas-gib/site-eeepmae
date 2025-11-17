@@ -220,6 +220,7 @@ section.section-com-imagem {
     background-color: rgb(62, 61, 61); /* Apenas pra preencher */
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
     background-size: cover;
+    background-position: center;
     margin-left: -20px;
     margin-right: -20px;
     padding-left: 0;
@@ -227,7 +228,7 @@ section.section-com-imagem {
 }
 
 section#escola {
-    background-image: url(../imagens/placeholder.png);
+    background-image: url(../imagens/frente-da-escola.jpg);
 }
 
 section#escola > h1 {
